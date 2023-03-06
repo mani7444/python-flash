@@ -36,7 +36,7 @@ jobs:
       with:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
         cluster-name: aksdemocluster
-        resource-group: DefaultResourceGroup-EAU
+        resource-group: DefaultResourceGroup-EAU 
         
     - uses: Azure/k8s-create-secret@v1
       with:
